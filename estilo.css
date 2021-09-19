@@ -1,7 +1,17 @@
 body{
+    width: 1440px;
     margin: 0px;
     padding: 0px;
     font-family: 'Bai Jamjuree';
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+}
+
+#logo{
+    margin-left: 50%;
+}
+
+p.download-ios{
 }
 
 .attribution { 
