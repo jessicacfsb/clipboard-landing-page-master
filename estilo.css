@@ -60,6 +60,28 @@ h1{
         text-align: center;
 }
 
+.container-computer{
+    display: block;
+
+}
+
+.computer-text{
+    display: inline-block;
+    width: 400px;
+    margin-left: 150px;
+}
+
+.computer-text p{
+    margin-bottom: 60px;
+    color: hsl(201, 11%, 66%);
+
+}
+
+.computer-text h3 {
+    line-height: 0;
+    color: hsl(210, 10%, 33%);
+}
+
 .attribution { 
     font-size: 11px;
     text-align: center;
