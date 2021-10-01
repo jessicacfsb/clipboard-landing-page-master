@@ -14,7 +14,7 @@ body{
 }
 
 p {
-    line-height: 2;
+    line-height: 1.5;
     color: hsl(201, 11%, 66%);;
 }
 
@@ -47,6 +47,7 @@ h3{
     width: 200px;
     border-radius: 50px;
     box-shadow: 0px 3px 1px hsl(171, 66%, 35%);
+    cursor: pointer;
 }
 
 .first-section p.download-mac{
@@ -58,9 +59,16 @@ h3{
     border-radius: 50px;
     margin-left: 10px;
     box-shadow: 0px 3px 1px hsl(233, 100%, 62%);
+    cursor: pointer;
 }
 
-.second-section p.download-ios{
+.second-section{
+    text-align: center;
+    width: 700px;
+    margin: 150px 0px 100px 33%;
+}
+
+.section p.download-ios{
     color: hsl(0, 100%, 100%);
     background-color: hsl(171, 66%, 44%);
     padding: 10px;
@@ -68,9 +76,10 @@ h3{
     border-radius: 50px;
         text-align: center;
     box-shadow: 0px 3px 1px hsl(171, 66%, 35%);
+    cursor: pointer;
 }
 
-.second-section p.download-mac{
+.section p.download-mac{
     color: hsl(0, 100%, 100%);
     background-color: hsl(233, 100%, 69%);
     padding: 10px;
@@ -78,11 +87,11 @@ h3{
     border-radius: 50px;
         text-align: center;
     box-shadow: 0px 3px 1px hsl(233, 100%, 62%);
+    cursor: pointer;
 }
 
 .container-computer{
     display: block;
-
 }
 
 .computer-text{
