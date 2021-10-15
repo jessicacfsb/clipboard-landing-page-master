@@ -129,27 +129,18 @@ h3{
 }
 
 .container-tools{
+    margin-left: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    width: 1200px;
     margin-left: 12%;
-}
-
-#first-tool{
-    display: inline-block;
-    width: 400px;
-    text-align: center;
-    margin-right: 20px;
-}
-
-#second-tool{
-    display: inline-block;
-    width: 400px;
-    text-align: center;
-    margin-right: 20px;
-}
-
-#third-tool{
-    display: inline-block;
-    width: 400px;
-    text-align: center;
 }
 
 .attribution { 
