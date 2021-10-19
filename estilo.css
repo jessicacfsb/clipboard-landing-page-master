@@ -52,12 +52,12 @@ h3{
 
 .history-section p.download-mac{
     display: inline-block;
+    margin-left: 10px;
     color: hsl(0, 100%, 100%);
     background-color: hsl(233, 100%, 69%);
     padding: 10px;
     width: 200px;
     border-radius: 50px;
-    margin-left: 10px;
     box-shadow: 0px 3px 1px hsl(233, 100%, 62%);
     cursor: pointer;
 }
@@ -66,28 +66,6 @@ h3{
     text-align: center;
     width: 700px;
     margin: 150px 0px 100px 31%;
-}
-
-.section p.download-ios{
-    color: hsl(0, 100%, 100%);
-    background-color: hsl(171, 66%, 44%);
-    padding: 10px;
-    width: 200px;
-    border-radius: 50px;
-        text-align: center;
-    box-shadow: 0px 3px 1px hsl(171, 66%, 35%);
-    cursor: pointer;
-}
-
-.section p.download-mac{
-    color: hsl(0, 100%, 100%);
-    background-color: hsl(233, 100%, 69%);
-    padding: 10px;
-    width: 200px;
-    border-radius: 50px;
-        text-align: center;
-    box-shadow: 0px 3px 1px hsl(233, 100%, 62%);
-    cursor: pointer;
 }
 
 .computer-container{
@@ -125,22 +103,67 @@ h3{
 .workflow-section{
     text-align: center;
     width: 700px;
-    margin: 90px 0px 100px 31%;
+    margin: 80px 0px 100px 28%;
 }
 
 .container-tools{
-    margin-left: 10%;
     text-align: center;
     display: flex;
     justify-content: space-around;
 }
 
+#first-tool{
+    width: 400px;
+    margin-left: 60px;
+    margin-top: -9px;
+}
+
+#second-tool{
+    width: 400px;
+    margin-left: -60px;
+}
+
+#third-tool{
+    width: 400px;
+    margin-left: -60px;
+}
+
 .logo{
     display: flex;
     justify-content: space-around;
-    margin-top: 100px;
-    width: 1200px;
-    margin-left: 12%;
+    margin-top: 150px;
+    margin-left: 60px;
+}
+
+.clipboard-section{
+    text-align: center;
+    width: 700px;
+    margin: 170px 0px 100px 28%;
+}
+
+.clipboard-section p.download-ios{
+    display: inline-block;
+    color: hsl(0, 100%, 100%);
+    background-color: hsl(171, 66%, 44%);
+    padding: 10px;
+    width: 200px;
+    border-radius: 50px;
+        text-align: center;
+    box-shadow: 0px 3px 1px hsl(171, 66%, 35%);
+    cursor: pointer;
+}
+
+.clipboard-section p.download-mac{
+    display: inline-block;
+    margin-left: 10px;
+    color: hsl(0, 100%, 100%);
+    background-color: hsl(233, 100%, 69%);
+    padding: 10px;
+    width: 200px;
+    border-radius: 50px;
+        text-align: center;
+    box-shadow: 0px 3px 1px hsl(233, 100%, 62%);
+    cursor: pointer;
 }
 
 .attribution { 
